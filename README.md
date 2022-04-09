@@ -5,7 +5,7 @@ The API to manage project ans tasks in Database
 Notices: In this test code review task we assume, that there is already some authentication middleware layer. 
 So all routes protected by some token-based authorization, etc
 
-
+//use plurar nouns
 ## GET /project/{id}
 
 Retrieve project entity by ID
@@ -27,6 +27,7 @@ Retrieve project entity by ID
 + Response 404
 
 
+//use plurar nouns
 ## GET /project/{id}/tasks{?limit,offset}
 
 Retrieve project tasks
@@ -52,6 +53,7 @@ Retrieve project tasks
       ]  
    ```
 
+//use plurar nouns
 ## POST /project/{id}/tasks
 
 Create task for project
